@@ -12,6 +12,6 @@ var mail = [ "francesca@gmail.com" , "sara.gmail@com" , "chiara.gmail@com" , "gi
 var mail_giusta = prompt ('gentile utente inserisca la sua email: ');
     if (mail) {
         console.log( 'l email inserita è in lista' )
-    } else {
+    } else isNaN(mail){
         console.log( 'l email inserita non è in lista' )
     }

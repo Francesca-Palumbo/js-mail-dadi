@@ -8,9 +8,10 @@ var mail = [ "francesca@gmail.com" , "sara.gmail@com" , "chiara.gmail@com" , "gi
  mail.push( "mara.gmail@com" );
     console.log( mail );
 
+// verifico che l'utente sia in lista
 var mail_giusta = prompt ('gentile utente inserisca la sua email: ');
-    if ( isNaN( mail ) ) {
+    if (mail) {
         console.log( 'l email inserita è in lista' )
-    } else ( !isNaN( mail ) ){
+    } else {
         console.log( 'l email inserita non è in lista' )
     }
